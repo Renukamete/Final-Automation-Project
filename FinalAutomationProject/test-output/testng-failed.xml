@@ -5,7 +5,9 @@
     <classes>
       <class name="project.Insurance_MiniProject">
         <methods>
-          <include name="requestQuatation"/>
+          <include name="beforeTest1"/>
+          <include name="afterTest"/>
+          <include name="Donors_Corner"/>
           <include name="beforeTest"/>
         </methods>
       </class> <!-- project.Insurance_MiniProject -->

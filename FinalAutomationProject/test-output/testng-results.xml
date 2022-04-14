@@ -1,46 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="6" passed="5" failed="1" skipped="0">
+<testng-results ignored="0" total="10" passed="9" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-04-13T21:08:45 IST" name="Default suite" finished-at="2022-04-13T21:11:06 IST" duration-ms="141154">
+  <suite started-at="2022-04-14T19:19:29 IST" name="Default suite" finished-at="2022-04-14T19:24:55 IST" duration-ms="326320">
     <groups>
     </groups>
-    <test started-at="2022-04-13T21:08:45 IST" name="Default test" finished-at="2022-04-13T21:11:06 IST" duration-ms="141154">
+    <test started-at="2022-04-14T19:19:29 IST" name="Default test" finished-at="2022-04-14T19:24:55 IST" duration-ms="326320">
       <class name="project.Insurance_MiniProject">
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:project.Insurance_MiniProject@4f2b503c]" started-at="2022-04-13T21:08:45 IST" name="beforeTest" finished-at="2022-04-13T21:09:26 IST" duration-ms="41092" status="PASS">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:project.Insurance_MiniProject@5b03b9fe]" started-at="2022-04-14T19:19:29 IST" name="beforeTest" finished-at="2022-04-14T19:21:00 IST" duration-ms="91479" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method signature="launchBrowser()[pri:1, instance:project.Insurance_MiniProject@4f2b503c]" started-at="2022-04-13T21:09:26 IST" name="launchBrowser" finished-at="2022-04-13T21:09:47 IST" duration-ms="21733" status="PASS">
+        <test-method is-config="true" signature="beforeTest1()[pri:0, instance:project.Insurance_MiniProject@5b03b9fe]" started-at="2022-04-14T19:21:00 IST" name="beforeTest1" finished-at="2022-04-14T19:21:54 IST" duration-ms="53681" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest1 -->
+        <test-method signature="Home()[pri:1, instance:project.Insurance_MiniProject@5b03b9fe]" started-at="2022-04-14T19:21:54 IST" name="Home" finished-at="2022-04-14T19:22:15 IST" duration-ms="21206" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Home -->
+        <test-method signature="launchBrowser()[pri:1, instance:project.Insurance_MiniProject@5b03b9fe]" started-at="2022-04-14T19:22:15 IST" name="launchBrowser" finished-at="2022-04-14T19:22:53 IST" duration-ms="37793" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method signature="login()[pri:2, instance:project.Insurance_MiniProject@4f2b503c]" started-at="2022-04-13T21:09:47 IST" name="login" finished-at="2022-04-13T21:10:04 IST" duration-ms="16123" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login -->
-        <test-method signature="smokeTesting()[pri:3, instance:project.Insurance_MiniProject@4f2b503c]" started-at="2022-04-13T21:10:04 IST" name="smokeTesting" finished-at="2022-04-13T21:10:10 IST" duration-ms="6672" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- smokeTesting -->
-        <test-method signature="requestQuatation()[pri:4, instance:project.Insurance_MiniProject@4f2b503c]" started-at="2022-04-13T21:10:10 IST" name="requestQuatation" finished-at="2022-04-13T21:10:10 IST" duration-ms="12" status="FAIL">
-          <exception class="java.lang.Error">
+        <test-method signature="Donors_Corner()[pri:2, instance:project.Insurance_MiniProject@5b03b9fe]" started-at="2022-04-14T19:22:53 IST" name="Donors_Corner" finished-at="2022-04-14T19:22:53 IST" duration-ms="54" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[Unresolved compilation problems: 
-File cannot be resolved to a type
-OutputType cannot be resolved to a variable
-FileHandler cannot be resolved
-File cannot be resolved to a type
-]]>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/header/div/div/div/div[2]/nav/div[2]/ul/li[3]/a"}
+  (Session info: chrome=100.0.4896.88)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'DESKTOP-OFS1BHR', ip: '192.168.43.54', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [bf3ce32d3d222356793c5770887481d0, findElement {using=xpath, value=/html/body/div[1]/header/div/div/div/div[2]/nav/div[2]/ul/li[3]/a}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.88, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\renuk\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51067}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51067/devtoo..., se:cdpVersion: 100.0.4896.88, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: bf3ce32d3d222356793c5770887481d0]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.Error: Unresolved compilation problems: 
-File cannot be resolved to a type
-OutputType cannot be resolved to a variable
-FileHandler cannot be resolved
-File cannot be resolved to a type
-
-at project.Insurance_MiniProject.requestQuatation(Insurance_MiniProject.java:111)
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/header/div/div/div/div[2]/nav/div[2]/ul/li[3]/a"}
+  (Session info: chrome=100.0.4896.88)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'DESKTOP-OFS1BHR', ip: '192.168.43.54', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [bf3ce32d3d222356793c5770887481d0, findElement {using=xpath, value=/html/body/div[1]/header/div/div/div/div[2]/nav/div[2]/ul/li[3]/a}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.88, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\renuk\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51067}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51067/devtoo..., se:cdpVersion: 100.0.4896.88, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: bf3ce32d3d222356793c5770887481d0
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:383)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:375)
+at project.Insurance_MiniProject.Donors_Corner(Insurance_MiniProject.java:259)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -71,18 +93,42 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.Error -->
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Donors_Corner -->
+        <test-method signature="login()[pri:2, instance:project.Insurance_MiniProject@5b03b9fe]" started-at="2022-04-14T19:22:53 IST" name="login" finished-at="2022-04-14T19:23:07 IST" duration-ms="14061" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="Register_Now()[pri:3, instance:project.Insurance_MiniProject@5b03b9fe]" started-at="2022-04-14T19:23:07 IST" name="Register_Now" finished-at="2022-04-14T19:23:38 IST" duration-ms="31327" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Register_Now -->
+        <test-method signature="smokeTesting()[pri:3, instance:project.Insurance_MiniProject@5b03b9fe]" started-at="2022-04-14T19:23:38 IST" name="smokeTesting" finished-at="2022-04-14T19:23:38 IST" duration-ms="24" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- smokeTesting -->
+        <test-method signature="contact_us()[pri:4, instance:project.Insurance_MiniProject@5b03b9fe]" started-at="2022-04-14T19:23:38 IST" name="contact_us" finished-at="2022-04-14T19:23:58 IST" duration-ms="19146" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contact_us -->
+        <test-method signature="requestQuatation()[pri:4, instance:project.Insurance_MiniProject@5b03b9fe]" started-at="2022-04-14T19:23:58 IST" name="requestQuatation" finished-at="2022-04-14T19:24:16 IST" duration-ms="18185" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- requestQuatation -->
-        <test-method signature="retriveQuatation()[pri:5, instance:project.Insurance_MiniProject@4f2b503c]" started-at="2022-04-13T21:10:10 IST" name="retriveQuatation" finished-at="2022-04-13T21:10:31 IST" duration-ms="21093" status="PASS">
+        <test-method signature="retriveQuatation()[pri:5, instance:project.Insurance_MiniProject@5b03b9fe]" started-at="2022-04-14T19:24:16 IST" name="retriveQuatation" finished-at="2022-04-14T19:24:31 IST" duration-ms="15209" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- retriveQuatation -->
-        <test-method signature="EditProfile()[pri:6, instance:project.Insurance_MiniProject@4f2b503c]" started-at="2022-04-13T21:10:31 IST" name="EditProfile" finished-at="2022-04-13T21:11:06 IST" duration-ms="34318" status="PASS">
+        <test-method signature="EditProfile()[pri:6, instance:project.Insurance_MiniProject@5b03b9fe]" started-at="2022-04-14T19:24:31 IST" name="EditProfile" finished-at="2022-04-14T19:24:55 IST" duration-ms="23954" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- EditProfile -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:project.Insurance_MiniProject@5b03b9fe]" started-at="2022-04-14T19:24:55 IST" name="afterTest" finished-at="2022-04-14T19:24:55 IST" duration-ms="49" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
       </class> <!-- project.Insurance_MiniProject -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
